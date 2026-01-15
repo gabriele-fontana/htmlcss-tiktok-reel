@@ -119,7 +119,15 @@ da rimuovere una volta concluso
 footer{
 	min-height: 100px;
 }
-
-
+.text_btn i {
+	position: absolute;
+	font-size: 6px;
+	color: #f5000088;
+	left:228px;
+	top:18px;
+}
+.text-btn:first-child{
+	position: relative;
+}
 
 /* --------------------- */
