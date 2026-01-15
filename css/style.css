@@ -158,5 +158,16 @@ footer{
  .stat {
 	font-size: small;
  }
-
+.notification_msg {
+	border-radius: 4px;
+	background-color: #e0385d;
+	font-size: 14px;
+	min-width: 28px;
+	position: absolute;
+	top:25px;
+	right: 125px;
+}
+.msg_btn{
+	position:relative;
+}
 /* --------------------- */
