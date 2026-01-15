@@ -28,20 +28,32 @@ video {
 	position: absolute;
 	align-items: center;
 	justify-content: space-between;
-	display: flex;
 	top: 0;
 	left: 0;
 	right: 0;
 	
 	/* Inserisci qui sotto 
 	le tue regole, se necessario. */
+
+	display: flex;
+	padding: 10px;
+	/* add top buttons */
 	button {
 		background-color: transparent;
 		border-color: transparent;
-		color: white;
+		
 	}
 }
+.text_btn {
+	color:#7695b7bf;
+	font-size: 16px;
+	font-weight: bold;
+}
+.img_btn {
+	color: white;
+	font-size: 30px;
 
+}
 /* Footer */
 
 footer {
@@ -53,6 +65,7 @@ footer {
 
 	/* Inserisci qui sotto 
 	le tue regole, se necessario. */
+	
 }
 
 /* Sidebar */
@@ -64,6 +77,21 @@ footer {
 
 	/* Inserisci qui sotto 
 	le tue regole, se necessario. */
+	display: flex;
+	flex-direction: column;
+	align-items: center ;
+	justify-content:space-around ;
+	button.sidebar-btn{
+		font-size: 32px;
+		background-color: transparent;
+		color: white;
+		border: 0px;
+	}
+}
+.profile_pic{
+	object-fit: cover;
+	border-radius: 50%;
+	width: 50px;
 }
 
 /* ---------------------
@@ -75,15 +103,12 @@ da rimuovere una volta concluso
 	border: 2px dashed #fff;
 }
 
-.debug .sidebar {
+.sidebar {
 	min-width: 80px;
 	min-height: 450px;
-	border: 2px dashed #ff0;
+
 }
 
-.debug .reel-header {
-	min-height: 50px;
-	border: 2px dashed #fff;
-}
+
 
 /* --------------------- */
