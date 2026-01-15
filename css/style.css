@@ -80,6 +80,12 @@ footer {
 	width: 70px;
 	font-size: 32px;
 	align-self: center;
+	border-radius: 8px;
+	border-left-color: #e0385d;
+	border-right-color: aqua;
+	border-width: 3px;
+	border-top: none;
+	border-bottom: none;
 }
 
 /* Sidebar */
@@ -164,8 +170,8 @@ footer{
 	font-size: 14px;
 	min-width: 28px;
 	position: absolute;
-	top:25px;
-	right: 125px;
+	top: -8px;
+	right: -15px;
 }
 .msg_btn{
 	position:relative;
