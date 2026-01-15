@@ -106,16 +106,13 @@ footer {
 	object-fit: cover;
 	border-radius: 50%;
 	width: 50px;
+	border: solid 2px white;
 }
 
-/* ---------------------
-Regole per evidenziare i blocchi 
-da rimuovere una volta concluso
---------------------- */
 .sidebar {
 	min-width: 80px;
 	min-height: 450px;
-}
+	}
 footer{
 	min-height: 100px;
 }
@@ -129,5 +126,37 @@ footer{
 .text-btn:first-child{
 	position: relative;
 }
+/* add hover to "per te" button */
+.text_btn:last-of-type:hover {
+	text-decoration: underline;
+	color: white;
+	text-decoration-thickness: 2px;
+	text-underline-offset: 6px;
+	
+}
+
+/* add plus button to profile picture */
+.sidebar-btn:first-of-type i {
+	position: absolute;
+	color: #e0385d;
+	font-size: 18px;
+	bottom: -10px;
+	border-radius: 50%;
+	background-color: white;
+	border-color: transparent;
+	display: flex;
+	justify-content: center;
+	
+	
+}
+ .sidebar .sidebar-btn:first-of-type {
+	position: relative;
+	justify-content: center;
+	display: flex;
+	
+ }
+ .stat {
+	font-size: small;
+ }
 
 /* --------------------- */
