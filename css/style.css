@@ -18,7 +18,8 @@ video {
 }
 
 .reel-page {
-	height: 100vh; /* ti incuriosisce? */
+	height: 100vh;
+	/* ti incuriosisce? */
 	max-width: 512px;
 	min-width: 400px;
 	position: relative;
@@ -31,29 +32,33 @@ video {
 	top: 0;
 	left: 0;
 	right: 0;
-	
+
 	/* Inserisci qui sotto 
 	le tue regole, se necessario. */
 
 	display: flex;
 	padding: 10px;
+
 	/* add top buttons */
 	button {
 		background-color: transparent;
 		border-color: transparent;
-		
+
 	}
 }
+
 .text_btn {
-	color:#7695b7bf;
+	color: #7695b7bf;
 	font-size: 16px;
 	font-weight: bold;
 }
+
 .img_btn {
 	color: white;
 	font-size: 30px;
 
 }
+
 /* Footer */
 
 footer {
@@ -62,26 +67,28 @@ footer {
 	right: 0;
 	bottom: 0;
 	color: #fff;
-	
-	
+
+
 	/* Inserisci qui sotto 
 	le tue regole, se necessario. */
 	background-color: transparent;
 	display: flex;
 	flex-direction: column;
-	section{
+
+	section {
 		max-width: 290px;
 		font-size: small;
 		padding: 15px;
-	} 
-	
+	}
+
 }
+
 .footer-btn div {
 	font-size: small;
 }
 
 
-.central-btn{
+.central-btn {
 	height: 40px;
 	width: 70px;
 	font-size: 32px;
@@ -93,18 +100,25 @@ footer {
 	border-top: none;
 	border-bottom: none;
 }
-.footer section{
+
+.footer section {
 	display: flex;
 	flex-direction: column;
 	position: absolute;
-	top:-50px;
+	top: -50px;
 }
+/* add footer-btn hover */
+.footer-btn:hover {
+	color: white;
+}
+
 .footer-btn {
-    color: white;
-    background-color: transparent;
-    border: 0;
-    font-size: 28px;
+	color: rgb(134, 134, 134);
+	background-color: transparent;
+	border: 0;
+	font-size: 28px;
 }
+
 /* Sidebar */
 .sidebar {
 	padding: 0 16px;
@@ -116,52 +130,59 @@ footer {
 	le tue regole, se necessario. */
 	display: flex;
 	flex-direction: column;
-	align-items: center ;
-	justify-content:space-around ;
-	button.sidebar-btn{
+	align-items: center;
+	justify-content: space-around;
+
+	button.sidebar-btn {
 		font-size: 32px;
 		background-color: transparent;
 		color: white;
 		border: 0px;
 	}
 }
+
 .footer-nav {
-    background-color: black;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    min-height: 80px;
+	background-color: black;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	min-height: 80px;
 }
-.profile_pic{
+
+.profile_pic {
 	object-fit: cover;
 	border-radius: 50%;
 	width: 50px;
 	border: solid 2px white;
 }
 
-.sidebar {	
+.sidebar {
 	min-height: 450px;
-	}
-footer{
+}
+
+footer {
 	min-height: 100px;
 }
+
 .text_btn i {
 	position: absolute;
 	font-size: 6px;
 	color: #f5000088;
-	left:228px;
-	top:18px;
+	left: 228px;
+	top: 18px;
 }
-.text-btn:first-child{
+
+.text-btn:first-child {
 	position: relative;
 }
+
 /* add hover to "per te" button */
 .text_btn:last-of-type:hover {
 	text-decoration: underline;
 	color: white;
 	text-decoration-thickness: 2px;
 	text-underline-offset: 6px;
-	
+
 }
 
 /* add plus button to profile picture */
@@ -175,18 +196,19 @@ footer{
 	border-color: transparent;
 	display: flex;
 	justify-content: center;
-	
-	
+
+
 }
- .sidebar .sidebar-btn:first-of-type {
+
+.sidebar .sidebar-btn:first-of-type {
 	position: relative;
 	justify-content: center;
 	display: flex;
-	
- }
- .stat {
+}
+.stat {
 	font-size: small;
- }
+}
+
 .notification_msg {
 	border-radius: 4px;
 	background-color: #e0385d;
@@ -196,8 +218,9 @@ footer{
 	top: -8px;
 	right: -5px;
 }
-.msg_btn{
-	position:relative;
+
+.msg_btn {
+	position: relative;
 }
 
 /* --------------------- */
