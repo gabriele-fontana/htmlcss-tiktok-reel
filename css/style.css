@@ -62,19 +62,21 @@ footer {
 	right: 0;
 	bottom: 0;
 	color: #fff;
-
+	;
+	
 	/* Inserisci qui sotto 
 	le tue regole, se necessario. */
-	background-color: black;
-	display: flex;
-	justify-content:space-evenly;
-}
-.footer-btn{
-	color: white;
 	background-color: transparent;
-	border: 0;
-	font-size: 28px;
+	display: flex;
+	flex-direction: column;
+	section{
+		max-width: 290px;
+		font-size: small;
+		padding: 15px;
+	} 
 }
+
+
 .central-btn{
 	height: 40px;
 	width: 70px;
@@ -87,7 +89,18 @@ footer {
 	border-top: none;
 	border-bottom: none;
 }
-
+.footer section{
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	top:-50px;
+}
+.footer-btn {
+    color: white;
+    background-color: transparent;
+    border: 0;
+    font-size: 28px;
+}
 /* Sidebar */
 .sidebar {
 	padding: 0 16px;
@@ -107,6 +120,13 @@ footer {
 		color: white;
 		border: 0px;
 	}
+}
+.footer-nav {
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    min-height: 80px;
 }
 .profile_pic{
 	object-fit: cover;
@@ -176,4 +196,5 @@ footer{
 .msg_btn{
 	position:relative;
 }
+
 /* --------------------- */
